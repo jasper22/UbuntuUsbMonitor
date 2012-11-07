@@ -1,0 +1,8 @@
+C:\Projects\#Test\UbuntuUsbMonitor\UsbuntuUsbMonitor.Shared\bin\Debug\UbuntuUsbMonitor.Shared.dll
+C:\Projects\#Test\UbuntuUsbMonitor\UsbuntuUsbMonitor.Shared\bin\Debug\UbuntuUsbMonitor.Shared.pdb
+C:\Projects\#Test\UbuntuUsbMonitor\UsbuntuUsbMonitor.Shared\obj\Debug\UbuntuUsbMonitor.Shared.dll
+C:\Projects\#Test\UbuntuUsbMonitor\UsbuntuUsbMonitor.Shared\obj\Debug\UbuntuUsbMonitor.Shared.pdb
+Z:\UbuntuUsbMonitor\shared\UsbuntuUsbMonitor.Shared\bin\Debug\UbuntuUsbMonitor.Shared.dll
+Z:\UbuntuUsbMonitor\shared\UsbuntuUsbMonitor.Shared\bin\Debug\UbuntuUsbMonitor.Shared.pdb
+Z:\UbuntuUsbMonitor\shared\UsbuntuUsbMonitor.Shared\obj\Debug\UbuntuUsbMonitor.Shared.dll
+Z:\UbuntuUsbMonitor\shared\UsbuntuUsbMonitor.Shared\obj\Debug\UbuntuUsbMonitor.Shared.pdb

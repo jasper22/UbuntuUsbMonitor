@@ -1,0 +1,21 @@
+﻿Build started 01/11/2012 16:12:04.
+     1>Project "C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\c_remote_lat\c_remote_lat.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\c_remote_lat\../../../obj/Win32/Debug/remote_lat/remote_lat.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /MP /Od /Oy- /D _DEBUG /D WIN32 /D _CONSOLE /D _BIND_TO_CURRENT_VCLIBS_VERSION=1 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\c_remote_lat\../../../obj/Win32/Debug/remote_lat/" /Fd"C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\c_remote_lat\../../../obj/Win32/Debug/remote_lat/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\perf\remote_lat.cpp
+         remote_lat.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\c_remote_lat\../../../bin/Win32/remote_lat_d.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Projects\Software\Tools\zeromq-3.2.1\bin\Win32\../../lib/Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\c_remote_lat\../../../obj/Win32/Debug/remote_lat/remote_lat_d.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Projects\Software\Tools\zeromq-3.2.1\bin\Win32\remote_lat_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\c_remote_lat\../../../bin/Win32/remote_lat_d.lib" /MACHINE:X86 "C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\c_remote_lat\../../../obj/Win32/Debug/remote_lat/remote_lat.obj"
+         "C:\Projects\Software\Tools\zeromq-3.2.1\lib\Win32\libzmq_d.lib"
+         c_remote_lat.vcxproj -> C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\c_remote_lat\../../../bin/Win32/remote_lat_d.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\c_remote_lat\../../../bin/Win32/remote_lat_d.exe;#1" /manifest "C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\c_remote_lat\../../../obj/Win32/Debug/remote_lat/remote_lat_d.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\c_remote_lat\../../../obj/Win32/Debug/remote_lat/remote_lat.unsuccessfulbuild".
+         Touching "C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\c_remote_lat\../../../obj/Win32/Debug/remote_lat/remote_lat.lastbuildstate".
+     1>Done Building Project "C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\c_remote_lat\c_remote_lat.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.58

@@ -1,0 +1,22 @@
+﻿Build started 01/11/2012 16:10:40.
+     1>Project "C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\libzmq\libzmq.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\libzmq\../../../obj/x64/Debug/libzmq/libzmq.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         copy ..\platform.hpp ..\..\..\src
+         :VCEnd
+                 1 file(s) copied.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         libzmq.vcxproj -> C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\libzmq\../../../bin/x64/libzmq_d.dll
+       FinalizeBuildStatus:
+         Deleting file "C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\libzmq\../../../obj/x64/Debug/libzmq/libzmq.unsuccessfulbuild".
+         Touching "C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\libzmq\../../../obj/x64/Debug/libzmq/libzmq.lastbuildstate".
+     1>Done Building Project "C:\Projects\Software\Tools\zeromq-3.2.1\builds\msvc\libzmq\libzmq.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09

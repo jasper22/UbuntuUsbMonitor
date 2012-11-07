@@ -1,0 +1,43 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Main.cs">
+    <Files>
+      <File FileName="Main.cs" Line="27" Column="49" />
+      <File FileName="Native/PInvoke.cs" Line="22" Column="9" />
+      <File FileName="Native/BitShifter.cs" Line="38" Column="1" />
+      <File FileName="Native/Insider.cs" Line="41" Column="6" />
+      <File FileName="../lib/clrzmq/src/ZeroMQ/ZmqSocket.cs" Line="781" Column="1" />
+      <File FileName="../lib/clrzmq/src/ZeroMQ/SendReceiveExtensions.cs" Line="92" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="DevTest" expanded="True">
+            <Node name="Native" expanded="True" />
+            <Node name="Main.cs" selected="True" />
+          </Node>
+          <Node name="ZeroMQ.Mono" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/alex/Projects/DevTest/Main.cs" line="70" />
+      <Breakpoint file="/home/alex/Projects/lib/clrzmq/src/ZeroMQ/ZmqSocket.cs" line="1059" />
+      <Breakpoint file="/home/alex/Projects/DevTest/Main.cs" line="49" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../UsbLogReader/ViewModel/MainViewModel.cs" line="101" offsetX="386" offsetY="1547" expression="recordUnpacked" liveUpdate="False" />
+    <Watch file="../UsbLogReader/Model/RecordBase.cs" line="98" offsetX="450" offsetY="1615" expression="addressPipe" liveUpdate="False" />
+    <Watch file="Main.cs" line="28" offsetX="1166" offsetY="425" expression="safeHandle" liveUpdate="False" />
+    <Watch file="Main.cs" line="28" offsetX="1166" offsetY="425" expression="safeHandle" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

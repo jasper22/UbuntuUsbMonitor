@@ -1,0 +1,4 @@
+C:\Projects\#Test\UbuntuUsbMonitor\UsbuntuUsbMonitor.Shared\bin\Debug\UsbuntuUsbMonitor.Shared.dll
+C:\Projects\#Test\UbuntuUsbMonitor\UsbuntuUsbMonitor.Shared\bin\Debug\UsbuntuUsbMonitor.Shared.pdb
+C:\Projects\#Test\UbuntuUsbMonitor\UsbuntuUsbMonitor.Shared\obj\Debug\UsbuntuUsbMonitor.Shared.dll
+C:\Projects\#Test\UbuntuUsbMonitor\UsbuntuUsbMonitor.Shared\obj\Debug\UsbuntuUsbMonitor.Shared.pdb

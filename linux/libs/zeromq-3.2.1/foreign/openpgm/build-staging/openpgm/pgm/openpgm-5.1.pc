@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenPGM
+Description: PGM Protocol Library.
+Version: 5.1.118
+Libs: -L${libdir} -lpgm -lrt -lpthread -lm 
+Cflags: -I${includedir}/pgm-5.1 -I${libdir}/pgm-5.1/include

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroMQ.Mono", "libs\clrzmq\src\ZeroMQ\ZeroMQ.Mono.csproj", "{6FFD872F-A4A4-4EFA-9B4D-4342BA6CF250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UbuntuUsbMonitor.Network", "UbuntuUsbMonitor.Network\UbuntuUsbMonitor.Network.csproj", "{FF3CF7AE-F150-4AB5-B83B-932B3745166A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UbuntuUsbMonitor.Shared", "..\shared\UsbuntuUsbMonitor.Shared\UbuntuUsbMonitor.Shared.csproj", "{A0B64E64-CCA6-4F83-8183-8492D680A4E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FFD872F-A4A4-4EFA-9B4D-4342BA6CF250}.Debug|x86.ActiveCfg = Debug|x86
+		{6FFD872F-A4A4-4EFA-9B4D-4342BA6CF250}.Debug|x86.Build.0 = Debug|x86
+		{6FFD872F-A4A4-4EFA-9B4D-4342BA6CF250}.Release|x86.ActiveCfg = Release|x86
+		{6FFD872F-A4A4-4EFA-9B4D-4342BA6CF250}.Release|x86.Build.0 = Release|x86
+		{A0B64E64-CCA6-4F83-8183-8492D680A4E3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A0B64E64-CCA6-4F83-8183-8492D680A4E3}.Debug|x86.Build.0 = Debug|Any CPU
+		{A0B64E64-CCA6-4F83-8183-8492D680A4E3}.Release|x86.ActiveCfg = Release|Any CPU
+		{A0B64E64-CCA6-4F83-8183-8492D680A4E3}.Release|x86.Build.0 = Release|Any CPU
+		{FF3CF7AE-F150-4AB5-B83B-932B3745166A}.Debug|x86.ActiveCfg = Debug|x86
+		{FF3CF7AE-F150-4AB5-B83B-932B3745166A}.Debug|x86.Build.0 = Debug|x86
+		{FF3CF7AE-F150-4AB5-B83B-932B3745166A}.Release|x86.ActiveCfg = Release|x86
+		{FF3CF7AE-F150-4AB5-B83B-932B3745166A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = UbuntuUsbMonitor.Network\UbuntuUsbMonitor.Network.csproj
+	EndGlobalSection
+EndGlobal

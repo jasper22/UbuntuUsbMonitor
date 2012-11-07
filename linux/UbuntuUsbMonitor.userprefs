@@ -1,0 +1,29 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="UbuntuUsbMonitor.Network" expanded="True" selected="True">
+            <Node name="References" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="UsbLogReader/ViewModel/MainViewModel.cs" line="101" offsetX="386" offsetY="1547" expression="recordUnpacked" liveUpdate="False" />
+    <Watch file="UsbLogReader/Model/RecordBase.cs" line="98" offsetX="450" offsetY="1615" expression="addressPipe" liveUpdate="False" />
+    <Watch file="UbuntuUsbMonitor.Network/Main.cs" line="28" offsetX="1166" offsetY="425" expression="safeHandle" liveUpdate="False" />
+    <Watch file="UbuntuUsbMonitor.Network/Main.cs" line="28" offsetX="1166" offsetY="425" expression="safeHandle" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

@@ -1,0 +1,15 @@
+C:\Projects\#Test\UbuntuUsbMonitor\bin\Debug\UbuntuUsbMonitor.exe
+C:\Projects\#Test\UbuntuUsbMonitor\bin\Debug\UbuntuUsbMonitor.pdb
+C:\Projects\#Test\UbuntuUsbMonitor\obj\x86\Debug\MainWindow.baml
+C:\Projects\#Test\UbuntuUsbMonitor\obj\x86\Debug\MainWindow.g.cs
+C:\Projects\#Test\UbuntuUsbMonitor\obj\x86\Debug\App.g.cs
+C:\Projects\#Test\UbuntuUsbMonitor\obj\x86\Debug\UbuntuUsbMonitor_MarkupCompile.cache
+C:\Projects\#Test\UbuntuUsbMonitor\obj\x86\Debug\UbuntuUsbMonitor.g.resources
+C:\Projects\#Test\UbuntuUsbMonitor\obj\x86\Debug\UbuntuUsbMonitor.Properties.Resources.resources
+C:\Projects\#Test\UbuntuUsbMonitor\obj\x86\Debug\UbuntuUsbMonitor.csproj.GenerateResource.Cache
+C:\Projects\#Test\UbuntuUsbMonitor\obj\x86\Debug\UbuntuUsbMonitor.exe
+C:\Projects\#Test\UbuntuUsbMonitor\obj\x86\Debug\UbuntuUsbMonitor.pdb
+C:\Projects\#Test\UbuntuUsbMonitor\bin\Debug\clrzmq.dll
+C:\Projects\#Test\UbuntuUsbMonitor\bin\Debug\clrzmq.pdb
+C:\Projects\#Test\UbuntuUsbMonitor\obj\x86\Debug\UbuntuUsbMonitor.csprojResolveAssemblyReference.cache
+C:\Projects\#Test\UbuntuUsbMonitor\bin\Debug\UbuntuUsbMonitor.exe.config

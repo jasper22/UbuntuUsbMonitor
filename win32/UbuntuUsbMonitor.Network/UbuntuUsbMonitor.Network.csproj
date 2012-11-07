@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{070B6B7E-5A31-477F-9C51-44D64BA71775}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UbuntuUsbMonitor.Network</RootNamespace>
+    <AssemblyName>UbuntuUsbMonitor.Network</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Monitor\NewPacketEventArgs.cs" />
+    <Compile Include="Monitor\RawPacketSerializer.cs" />
+    <Compile Include="Monitor\UsbMonPacketEventArgs.cs" />
+    <Compile Include="NetworkKernel.cs" />
+    <Compile Include="PInvoke\UsbMonPacketStruct.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Socket\OpStatus.cs" />
+    <Compile Include="Socket\PacketReceiver.cs" />
+    <Compile Include="Socket\ReplaySocket.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Socket\SocketBase.cs" />
+    <Compile Include="Socket\ZeroMqBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="libzmq.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libzmq.pdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\libs\clrzmq\src\ZeroMQ\ZeroMQ.csproj">
+      <Project>{6FFD872F-A4A4-4EFA-9B4D-4342BA6CF250}</Project>
+      <Name>ZeroMQ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\shared\UsbuntuUsbMonitor.Shared\UbuntuUsbMonitor.Shared.csproj">
+      <Project>{A0B64E64-CCA6-4F83-8183-8492D680A4E3}</Project>
+      <Name>UbuntuUsbMonitor.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

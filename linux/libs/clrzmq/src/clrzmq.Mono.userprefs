@@ -1,0 +1,36 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZeroMQ/Interop/SocketProxy.cs">
+    <Files>
+      <File FileName="ZeroMQ/ZmqContext.cs" Line="266" Column="39" />
+      <File FileName="ZeroMQ/ZmqSocket.cs" Line="320" Column="16" />
+      <File FileName="ZeroMQ/Interop/SocketProxy.cs" Line="256" Column="70" />
+      <File FileName="ZeroMQ/Interop/LibZmq.Mono.cs" Line="182" Column="107" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="Projects" expanded="True">
+            <Node name="ZeroMQ.Mono" expanded="True" />
+          </Node>
+          <Node name="Settings" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../UsbLogReader/ViewModel/MainViewModel.cs" line="101" offsetX="386" offsetY="1547" expression="recordUnpacked" liveUpdate="False" />
+    <Watch file="../../../UsbLogReader/Model/RecordBase.cs" line="98" offsetX="450" offsetY="1615" expression="addressPipe" liveUpdate="False" />
+    <Watch file="../../../DevTest/Main.cs" line="28" offsetX="1166" offsetY="425" expression="safeHandle" liveUpdate="False" />
+    <Watch file="../../../DevTest/Main.cs" line="28" offsetX="1166" offsetY="425" expression="safeHandle" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
