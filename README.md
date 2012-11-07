@@ -32,5 +32,5 @@ UbuntuUsbMonitor
 		When UsbMonPacket finally constructed then new event rised and collected by .GUI project
 		Then it should be finally presented on screen and user notify about it
 
-P.S. As for now [07-November-2012] there's a lot of TODOs and event broken/bugged classes. I'm working on them on my spare time so it will be fixed slowly but general idea should work.  Enjoy !
+	P.S. As for now [07-November-2012] there's a lot of TODOs and event broken/bugged classes. I'm working on them on my spare time so it will be fixed slowly but general idea should work.  Enjoy !
 
